@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "enhance-gradescope",
   "description": "Adds useful features to Gradescope",
   "version": "1.0.0",
@@ -15,6 +15,9 @@
         "content_script.js"
       ]
     }
+  ],
+  "host_permissions": [
+    "*://*.gradescope.com/"
   ],
   "browser_specific_settings": {
     "gecko": {
