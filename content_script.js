@@ -1,4 +1,5 @@
 // Put all the javascript code here, that you want to execute after page load.
+// TODO: change some of the queryselectors to getelementsbyclassname
 if (window.location.pathname.match(new RegExp("/courses/.+/assignments/.+/submissions/.+"))) {
   let assignmentName = document.querySelector(".submissionOutlineHeader--assignmentTitle").innerText
   document.title = assignmentName + " | " + document.title
